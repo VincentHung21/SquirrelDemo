@@ -1,10 +1,13 @@
-public class squirrel{
+package Squirrels;
+
+public class Squirrel{
   int intage;
   int intweight;
   int intteethlength;
   String strcolor;
 
-  public squirrel(int newintage, int newintweight, int newintteethlength, String newstrcolor) {
+  public Squirrel(int newintage, int newintweight, int newintteethlength, String newstrcolor) {
+    
     this.intage = newintage;
     this.intweight = newintweight;
     this.intteethlength = newintteethlength;
